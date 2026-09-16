@@ -1,3 +1,4 @@
+Sucesfully ran .\bin\hello
 
 # 📘 C Programming – 5-Week Course Syllabus
 
