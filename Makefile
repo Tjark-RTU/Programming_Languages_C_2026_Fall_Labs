@@ -39,12 +39,12 @@ lab5: $(LAB5)
 
 # Explicit rule for the one binary whose name differs from its source
 $(BUILD_DIR)/formats: $(SRC_DIR)/format_specifiers.c
-	@mkdir -p $(BUILD_DIR)
+#	@mkdir -p $(BUILD_DIR)
 	$(CC) $(CFLAGS) $< -o $@ $(LDFLAGS)
 
 # Generic rule: bin/NAME from src/NAME.c
 $(BUILD_DIR)/%: $(SRC_DIR)/%.c
-	@mkdir -p $(BUILD_DIR)
+#	@mkdir -p $(BUILD_DIR)
 	$(CC) $(CFLAGS) $< -o $@ $(LDFLAGS)
 
 # -----------------------
