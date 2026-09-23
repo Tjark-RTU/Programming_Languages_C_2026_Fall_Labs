@@ -13,7 +13,7 @@
 */
 
 int is_prime(int n) {
-    // TODO: check if n is prime using loop up to sqrt(n)
+    
     int sqrtN = sqrt(n);
 
     for(int i = 2; i <= sqrtN; i++)

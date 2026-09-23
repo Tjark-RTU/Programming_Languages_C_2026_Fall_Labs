@@ -12,13 +12,13 @@
 */
 
 int sum_to_n(int n) {
-    // TODO: implement sum with a for loop
+
     int result = 0;
     for(int i = 1; i <= n; i++)
     {
         result += i;
     }
-    return result; // placeholder
+    return result;
 }
 
 int main(void) {
