@@ -1,7 +1,7 @@
 /*
  * Lab 3, Task 3
- * Name: <your name>
- * Student ID: <your student ID>
+ * Name: Tjark Frithjof Janke
+ * Student ID: 260ADM037
  *
  * Implement basic string handling functions.
  * Write your own versions of:
@@ -48,10 +48,31 @@ int main(void) {
 
 // Implement functions below
 int my_strlen(const char *str) {
-    // TODO: count characters until '\0'
-    return 0; // placeholder
+    char curr_element = str[0];
+    int length = 0;
+    while(curr_element != '\0')
+    {
+        length += 1;
+        curr_element = str[length];
+    }
+
+
+    return length;
 }
 
 void my_strcpy(char *dest, const char *src) {
-    // TODO: copy characters until '\0', then write the '\0' into dest
+    char curr_element = src[0];
+    int index = 0;
+    while(1)
+    {
+        curr_element = src[index];
+        dest[index] = curr_element;
+        if(curr_element == '\0')
+        {
+            return;
+        }
+        index += 1;
+    }
+
+
 }
