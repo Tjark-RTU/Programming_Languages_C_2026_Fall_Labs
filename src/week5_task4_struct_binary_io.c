@@ -1,5 +1,5 @@
 // week5_task4_struct_binary_io.c   (BONUS)
-// Name: ________  Surname: ________  Student ID: ________
+// Name: Tjark Frithjof  Surname: Janke  Student ID: 260ADM037
 //
 // Task 4: Save and load a struct in binary format with fwrite()/fread()
 // Week 5 – Files & Modular Programming
